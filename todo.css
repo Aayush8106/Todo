@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(175, 173, 183, 0.941);
+    position: relative;
+}
+
+#taskPos{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+.wrap{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1.5em;
+}
+
+button{cursor: pointer;}
+
+.area{
+    height: 60vh;
+    width: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.add{
+    height: 5vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    font-size: 30px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    padding: 7px;
+    user-select: none;
+}
+
+.add button{
+    width: 20%;
+    outline: none;  
+    height: 100%;
+    font-size: 30px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: none;
+}
+
+.task{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items:center;
+    width: 50%;
+    height: 4vh;
+    margin-top: 10px;
+    border-radius: 1.5em;
+}
+
+.message{
+    font-size: 28px;
+}
+
+#delBtn{
+    height: 40px;
+    border-radius: 1.5em;
+    font-size: 25px;
+    width: 40px;
+    border: none;
+    background-color: rgba(175, 173, 183, 0.941);
+}
